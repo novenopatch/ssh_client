@@ -57,26 +57,4 @@ def deploy():
             #print(f"Your command:- {command} -")     
             resut =c.run(command)
             
-                
-                
-            
-            #c.run('uname -s')
-            #c.run('git pull')
-            #result = c.run("ls",hide = True)
-            #print(result)
-            #if command in [i for i in alias]:
-               # if command == php:
-            #        add_new_command = True
-            #        while add_new_command:
-            #            new = reinput("add new command")
-            #            if(new == ""):
-            #                add_new_command = False
-            #            else:
-                            
-                        
-             #   command = command.replace(command,alias[command])
-             #   print(command)
-            #else:
-            #    print(command,"not found")
-            
 deploy()
