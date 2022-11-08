@@ -9,7 +9,8 @@ class Save():
             'server_address' : "" ,
             'password' : '' ,
             'user' : '' ,
-            'port' : 6
+            'port' : 0,
+            'alias':{}
         }
         self.restore_data()
         
@@ -34,4 +35,6 @@ class Save():
             return self.data['port']
         elif data == SaveData.USER:
             return self.data['user']
+        elif data == SaveData.ALIAS:
+            return self.data['alias']
         
